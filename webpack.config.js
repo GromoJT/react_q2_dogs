@@ -44,7 +44,9 @@ module.exports = {
       name: "react_q2_dogs",
       filename: "remoteEntry.js",
       remotes: {},
-      exposes: {},
+      exposes: {
+        "./Dog":"./src/Dog.jsx"
+      },
       shared: {
         ...deps,
         react: {
