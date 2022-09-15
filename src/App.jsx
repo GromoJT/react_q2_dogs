@@ -1,15 +1,12 @@
-import React, { Suspense } from "react";
+import React from "react";
 import ReactDOM from "react-dom";
 
 import "./index.css";
 
 const App = () => (
   <div className="container">
-  <Suspense fallback={<div>Loading...</div>}>
-    <div>Test</div>
-  </Suspense>
-  
 
+    <div>Test</div>
     
   </div>
 );
