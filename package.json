@@ -1,6 +1,6 @@
 {
   "name": "react_q2_dogs",
-  "homepage": "https://react-dogs-module.web.app",
+  "homepage": "https://dip-d9e82.web.app",
   "version": "1.0.0",
   "scripts": {
     "build": "webpack --mode production",
