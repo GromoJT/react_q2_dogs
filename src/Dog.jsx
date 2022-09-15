@@ -19,9 +19,9 @@ const Dog = () => {
     }
 
   return (
-    <div style={{backgroundColor:'#a5927b',textAlign:'center',paddingBottom:'1rem'}}>
+    <div style={{backgroundColor:'#a5927b',alignItems:'center',textAlign:'center'}}>
         
-        <h2>Psy</h2>
+        <h3>Psy</h3>
         <div style={{maxHeight:'250px',minHeight:'250px'}}> 
             <img src={dogImg} style={{maxHeight:'250px',minHeight:'250px'}} />
         </div>
