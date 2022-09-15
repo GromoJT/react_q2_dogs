@@ -1,8 +1,8 @@
 import React, { Suspense } from "react";
 import ReactDOM from "react-dom";
-
+import Dog from './Dog.jsx';
 import "./index.css";
-const Dog = React.lazy(()=>import('./Dog'));
+
 
 const App = () => (
   <div className="container">
