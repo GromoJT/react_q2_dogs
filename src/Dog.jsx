@@ -3,11 +3,7 @@ import axios from 'axios';
 import './index.css';
 const Dog = () => {
 
-    const sleep = async (millisecounds) => {
-        await new Promise ( resolve =>{
-          return setTimeout(resolve,millisecounds);
-        });
-      };
+    
 
     const [dogImg,setDogImg] = useState('')
 
@@ -16,7 +12,6 @@ const Dog = () => {
     },[])
 
     const getRandomDog = async () =>{
-        await sleep(3000);
         axios.get("https://dog.ceo/api/breeds/image/random")
         .then(response =>{
             setDogImg(response.data.message)
